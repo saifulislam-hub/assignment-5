@@ -24,21 +24,7 @@ function handleLogout() {
     location.reload();
 }
 
-// --- Data Fetching ---
-// async function fetchIssues() {
-//     toggleLoader(true);
-//     try {
-//         const res = await fetch(API_URL);
-//         const data = await res.json();
-//         allIssues = data.data; // Assuming API response format
-//         renderIssues(allIssues);
-//         updateCounts(allIssues);
-//     } catch (err) {
-//         console.error("Error fetching issues:", err);
-//     } finally {
-//         toggleLoader(false);
-//     }
-// }
+
 async function fetchIssues() {
     toggleLoader(true);
     try {
