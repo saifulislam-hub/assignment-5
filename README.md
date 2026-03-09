@@ -6,6 +6,7 @@ let cannot be redeclared and is block-scoped, and
 const is block-scoped and its value cannot be reassigned.
 
 2️⃣ What is the spread operator (...)?
+
 Answer: The spread operator (...) is used to expand elements of an array or object into another array or object.
 
 3️⃣ What is the difference between map(), filter(), and forEach()?
